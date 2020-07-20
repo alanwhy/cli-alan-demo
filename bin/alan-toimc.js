@@ -3,9 +3,11 @@
 
 const { program } = require("commander")
 const { version } = require("../package.json")
+// 删除用的依赖包
 const del = require("del")
 const path = require("path")
 
+// 查看版本
 program.version(version)
 
 const delFunc = async (name) => {
