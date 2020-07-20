@@ -11,7 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "commander": "^6.0.0",
-    "del": "^5.1.0"
+    "del": "^5.1.0",
+    "inquirer": "^7.3.2"
   },
   "bin": {
     "alan": "./bin/alan-toimc.js"
